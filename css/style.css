@@ -37,3 +37,37 @@ nav ul {
 .logo span {
     font-weight: 300;
 }
+
+/* Desktop header */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d8d8d8;
+    color: #525151;
+}
+.header-image {
+    width: 60%;
+    margin: 32px 26px;
+}
+
+.header-content h1{
+    margin: 10px;
+    font-size:70px;
+}
+.header-content h3{
+    margin: 10px;
+    font-size: 36px;
+}
+.header-content button{
+    margin: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px 150px;
+    font-size: 20px;
+    background-color: #5f5c5c;
+    color: white;
+}
