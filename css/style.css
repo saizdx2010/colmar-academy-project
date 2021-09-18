@@ -72,3 +72,66 @@ header {
     color: white;
     border-radius: 10px;
 }
+
+/* Information Section */
+
+.information {
+    display: flex;
+}
+
+.information {
+    margin: 32px 24px;
+}
+
+.main-text-container h2{
+    margin: 24px 0;
+}
+.main-text-container p{
+    margin: 24px 0;
+}
+.main-text-container span{
+    margin: 24px 0;
+}
+
+.information-main h2{
+    font-size: 50px;
+}
+
+.information-main-img {
+    width: 900px;
+}
+
+.information-second {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+.information-second img {
+    width: 35%;
+    height: auto;
+}
+
+.information-second-container {
+    display: flex;
+    margin: 10px;
+}
+
+.second-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.second-text-container h3{
+    font-size: 24px;
+}
+.second-text-container h4{
+    font-size: 18px;
+}
+.second-text-container span{
+    font-size: 16px;
+    color: #6ca4e5;
+}
