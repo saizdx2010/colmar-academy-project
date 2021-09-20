@@ -299,6 +299,24 @@ nav ul {
         flex-direction: column;
         justify-content: center;
         gap: 10px;
+        background-color: #d8d8d8;
+    }
 
+    .mobile-header h1, h3 {
+        margin: 0 10px;
+    }
+
+    .mobile-header button {
+    margin: 10px 10px 20px 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: #5f5c5c;
+    color: white;
+    border-radius: 10px;
     }
 }
