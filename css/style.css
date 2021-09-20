@@ -287,6 +287,8 @@ nav ul {
         height: 64px;
         justify-content: space-around;
         align-items: center;
+        position: fixed;
+        background-color: white;
     }
     .nav-icon {
         width: 25px;
@@ -307,7 +309,7 @@ nav ul {
     }
 
     .mobile-header button {
-    margin: 10px 10px 20px 10px;
+    margin: 24px 10px 32px 10px;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -320,3 +322,36 @@ nav ul {
     border-radius: 10px;
     }
 }
+
+/* mobile info */
+
+.mobile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container img {
+    padding: 16px;
+}
+
+.info-container span, p, a {
+    padding: 0 16px;
+    margin: 3px;
+}
+
+.info-container span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-container a {
+    text-decoration: none;
+    color: #6ca4e5;
+}
+
