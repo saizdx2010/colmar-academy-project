@@ -395,3 +395,15 @@ nav ul {
     font-weight: bold;
     margin: 0 0 16px 0;
 }
+
+/* Mobile footer */
+
+.mobile-footer {
+    background-color: #cecaca;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    height: 50px;
+}
